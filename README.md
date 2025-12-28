@@ -21,10 +21,6 @@ Prerequisites
 
 **Installation**
 
-    Clone the repository:
-
-bash
-
-```git clone https://github.com/Kanyevictor/Docker-Containers.git
+    Clone the repository: ```git clone https://github.com/Kanyevictor/Docker-Containers.git
 cd Docker-Containers
 ```

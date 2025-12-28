@@ -1,7 +1,8 @@
 ***Docker Load Balancer with Nginx**
 
 A Docker-based load balancing solution that demonstrates horizontal scaling and traffic distribution using Nginx as a reverse proxy/load balancer.
-📋 Project Overview
+
+Project Overview
 
 This project sets up a complete load balancing environment with:
 
@@ -12,7 +13,6 @@ This project sets up a complete load balancing environment with:
     Docker Compose for orchestration and easy deployment
 
 
-🚀 Quick Start
 Prerequisites
 
     Docker

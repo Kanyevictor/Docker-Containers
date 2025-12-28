@@ -1,0 +1,19 @@
+services:
+  a:
+    container_name: container1
+    build: container1
+    volumes:
+      - "./html1:/usr/share/nginx/html"
+  b:
+    container_name: container2
+    build: container2
+    volumes:
+      - "./html2:/usr/share/nginx/html"
+  l_b:
+    container_name: l_b
+    image: nginx:1.23.3
+    ports:
+      - 8080:80
+    depends_on: ["a", "b"]
+    volumes:
+      - "./nginx.conf:/etc/nginx/nginx.conf" 
